@@ -57,4 +57,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="UserInformation.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="RegistrationDB.refactorlog" />
+  </ItemGroup>
 </Project>
