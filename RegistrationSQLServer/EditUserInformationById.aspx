@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="RegistrationSQLServer.Registration" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditUserInformationById.aspx.cs" Inherits="RegistrationSQLServer.EditUserInformationById" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <h3>User information</h3>
+                <h3>User Edit</h3>
     <asp:Label ID="Msg" ForeColor="maroon" runat="server" /><br />
     <asp:Panel ID="enterUserInfoPanel" runat="server">
         <table border="0">
@@ -70,15 +70,13 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Button ID="enterInfoButton" runat="server" Text="Enter user information" OnClick="EnterInfoButton_OnClick" />
-                 <asp:Button ID="btnEdit" runat="server" Text="Click for editing user information" OnClick="BtnEdit_OnClick" />     
-               
+                    <asp:Button ID="updateButton" runat="server" Text="Enter user information" OnClick="UpdateButton_OnClick" />
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="Registration.aspx" runat="server" >Add new Account</asp:HyperLink>
 
                 </td>
             </tr>
         </table>
     </asp:Panel>
-    
     </form>
 </body>
 </html>

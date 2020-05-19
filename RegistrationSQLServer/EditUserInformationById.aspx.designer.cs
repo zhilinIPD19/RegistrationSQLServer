@@ -11,7 +11,7 @@ namespace RegistrationSQLServer
 {
 
 
-    public partial class Registration
+    public partial class EditUserInformationById
     {
 
         /// <summary>
@@ -168,21 +168,21 @@ namespace RegistrationSQLServer
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorCountryTextBox;
 
         /// <summary>
-        /// enterInfoButton control.
+        /// updateButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button enterInfoButton;
+        protected global::System.Web.UI.WebControls.Button updateButton;
 
         /// <summary>
-        /// btnEdit control.
+        /// HyperLink1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEdit;
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
     }
 }
